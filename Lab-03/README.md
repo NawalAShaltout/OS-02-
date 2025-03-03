@@ -121,11 +121,11 @@
    **2.** Install Dependencies
       - Navigate to your app directory and install dependencies:
 
-              npm install
+        npm install
 
    **3.** Run your Node.jsapp:
 
-             node app.js
+        node app.js
       
 ---
 
