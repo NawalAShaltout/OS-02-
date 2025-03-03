@@ -8,7 +8,8 @@
 5. [Deploying Your Node.js App](#deploying-your-nodejs-app)
 
 
-1️⃣ # Installation
+## 1️⃣ Installation
+
 ### 📦 Install VirtualBox
 1. **Download VirtualBox**: Visit the [VirtualBox website](https://hibbard.eu/install-ubuntu-virtual-box/) and download the appropriate version for your OS.
 2. **Install VirtualBox**: Follow the installation instructions for your operating system.
