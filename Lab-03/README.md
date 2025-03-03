@@ -35,25 +35,37 @@
   3. **Install Ubuntu**: Follow the on-screen instructions to install Ubuntu Server.
   4. **Set Up User and Password**: Create a user and set a password.
   5. **Install OpenSSH Server**: Select "Install OpenSSH server" during installation.
+  6. **Configure VirtualBox Network**
+     - Go to VirtualBox settings.
+     - Select Network.
+     - Change Adapter 1 to **Bridged Adapter**.
+     - Restart the VM.
 
 ---
 
-## 4️⃣ Connect to Ubuntu via SSH from Windows
+## 4️⃣ Connect to Ubuntu server via SSH from Windows
 
   **1. Get the Ubuntu Server IP Address**
-             ip a | grep inet 
-             hostname -I
-          Your Ubuntu server’s IP look like this 192.168.1.xxx.
+           
+        ip a | grep inet 
+
+        OR
+        
+        hostname -I
+          
+  - Your Ubuntu server’s IP look like this 192.168.1.xxx.
   
   **2. From your CMD, run:**
   
-            ssh username@192.168.1.xxx
+        ssh username@192.168.1.xxx
         
-          *Replace **username** with your Ubuntu user.
-       *Replace **192.168.1.xxx** with your actual server IP.
+  - Replace **username** with your Ubuntu user.
+  - Replace **192.168.1.xxx** with your actual server IP.
+
 ---
 
-## 4️⃣ Installing Node.js
+## 5️⃣ Installing Node.js
+
 ### 🛠️ Open a terminal and run:
   **1. Update Package List**:
       - sudo apt update
