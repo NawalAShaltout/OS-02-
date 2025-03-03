@@ -85,6 +85,29 @@
        
 ---
 
+## 6- Deploying Your Node.js App 
+### A- Transfer Your App To Server 
+  - Copy your Node app files to the server using SCP or any other file transfer method
+
+
+       scp -r /path/to/your-app username@server-ip:/path/to/destination
+
+
+ 
+### B- Clone Your App To Server
+  - Navigate to the directory where you want to clone the repo:
+    
+    #Go to home directory
+    cd ~  
+
+    #Install Git (if not installed) (Likely installed)
+    sudo apt install git -y
+
+   #Clone your repository
+   git clone https://github.com/mmabas77/bookstore.git
+
+   #Change into project directory
+   cd bookstore
 
 
 
