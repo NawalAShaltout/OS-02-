@@ -85,7 +85,7 @@
        
 ---
 
-## 6- Deploying Your Node.js App 
+## 6️⃣ Deploying Your Node.js App 
   - Select **A** OR **B** to transfer Your App To Server.
     
 ### A- Copy Your App To Server from Windows CMD 
