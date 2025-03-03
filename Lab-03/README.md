@@ -86,11 +86,18 @@
 ---
 
 ## 6- Deploying Your Node.js App 
-### A- Transfer Your App To Server 
+  - Select **A** OR **B** to transfer Your App To Server.
+    
+### A- Copy Your App To Server from Windows CMD 
   - Copy your Node app files to the server using SCP or any other file transfer method:
 
           scp -r /path/to/your-app username@server-ip:/path/to/destination
- 
+    
+  - Navigate to your app directory
+
+  
+**OR**
+
 ### B- Clone Your App To Server
   - Navigate to the directory where you want to clone the repo:
     
