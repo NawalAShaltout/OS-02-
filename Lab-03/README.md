@@ -92,12 +92,12 @@
   - Copy your Node app files to the server using SCP or any other file transfer method:
 
           scp -r /path/to/your-app username@server-ip:/path/to/destination
-
-          cd your-app-directory
     
   - Navigate to your app directory
 
-  
+          cd your-app-directory
+
+   
 **OR**
 
 ### B- Clone Your App To Server
