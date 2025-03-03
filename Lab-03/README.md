@@ -33,17 +33,17 @@
   5. **Install OpenSSH Server**: Select "Install OpenSSH server" during installation.
 
 ## 🖥️ 4- Installing Node.js
-### Open a terminal and run:
+### 📦 Open a terminal and run:
 1. **Update Package List**:
-  - sudo apt update
+    - sudo apt update
     
 2. **Install Node.js:** Run the following commands:
-  - sudo apt install nodejs
-  - sudo apt install npm -y
+    - sudo apt install nodejs
+    - sudo apt install npm -y
     
 3. **Verify Installation:** Check the installed versions:
-  - node -v
-  - npm -v
+    - node -v
+    - npm -v
 
 
 
