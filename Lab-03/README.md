@@ -17,6 +17,8 @@
 ### 🌐 Download Ubuntu Server
   1. **Download Ubuntu Server ISO**: Go to the [Ubuntu website](https://releases.ubuntu.com/20.04/) and download the Ubuntu Server 20.04 LTS ISO file.
 
+---
+
 ## 2️⃣ Creating a Virtual Machine
   - Open VirtualBox → Click New.
   - Name: Ubuntu20Server
@@ -25,6 +27,8 @@
   - RAM: 2048MB (2GB) or more.
   - Create a Virtual Hard Disk → 20GB+.
 
+---
+
 ## 3️⃣ Insalling Ubuntu Server 
   1. **Start the VM**: Select your VM and click "Start".
   2. **Select ISO File**: When prompted, select the Ubuntu Server ISO file.
@@ -32,18 +36,37 @@
   4. **Set Up User and Password**: Create a user and set a password.
   5. **Install OpenSSH Server**: Select "Install OpenSSH server" during installation.
 
+---
+
+## 4️⃣ Connect to Ubuntu via SSH from Windows
+
+  **1. Get the Ubuntu Server IP Address**
+             ip a | grep inet 
+             hostname -I
+          Your Ubuntu server’s IP look like this 192.168.1.xxx.
+  
+  **2. From your CMD, run:**
+  
+            ssh username@192.168.1.xxx
+        
+          *Replace **username** with your Ubuntu user.
+       *Replace **192.168.1.xxx** with your actual server IP.
+---
+
 ## 4️⃣ Installing Node.js
 ### 🛠️ Open a terminal and run:
   **1. Update Package List**:
       - sudo apt update
     
   **2. Install Node.js:** Run the following commands:
-      - sudo apt install nodejs
-      - sudo apt install npm -y
+       - sudo apt install nodejs
+       - sudo apt install npm -y
     
   **3. Verify Installation:** Check the installed versions:
-      - node -v
-      - npm -v
+       - node -v
+       - npm -v
+       
+---
 
 
 
