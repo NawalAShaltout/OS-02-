@@ -1,4 +1,4 @@
-# 🐧 Setting Up Ubuntu 20 Server on VirtualBox for Node.js App 🌐
+# Setting Up Ubuntu 20 Server on VirtualBox for Node.js App 🌐
 
 ## 📋 Table of Contents
 1. [Installation](#installation)
@@ -98,7 +98,26 @@
 
           cd your-app-directory
 
-   
+
+   ### ❓ Troubleshooting 
+💡 If SSH connection is refused ? 
+  - **Check if SSH is installed ?** 
+    
+          sudo systemctl status ssh
+
+          OR
+
+          sudo service ssh status
+          
+  - **Insall ssh service**
+    
+          sudo apt-get install openssh-server
+
+  - **Start ssh** 
+
+          sudo service ssh start
+
+---
 **OR**
 
 ### B- Clone Your App To Server
@@ -118,6 +137,7 @@
 
 ---
 
+
    **2.** Install Dependencies
       - Navigate to your app directory and install dependencies:
 
@@ -129,7 +149,18 @@
       
 ---
 
+## 7️⃣ Access the index.js App in Your Browser
 
+      hostname -I
+      
+      http://192.168.1.xxx:3000/api/courses
+
+---
+
+
+
+          
+      
 
 
 
